@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body{
+        background-color: black;
+    }
+    .job-list {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr); 
+    grid-gap: 10px; 
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+  }
+  .job-list a:hover{
+    transform: scale(1.1);
+  }
+  .job-list a{
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      font-family: sans-serif;
+      padding: 10px;
+      padding-bottom: 5px;
+      cursor: pointer;
+  }
+  h1{
+    padding-top: 30px;
+  }
+  .job-item {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    color: black;
+  }
+  .Job-list-header{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    font-weight: bold;
+    color: white;
+    background-color: black;
+
+  }
+  </style>
+</head>
+<body>
+<div class="Job-list-header">
+  <h1>Career</h1>
+</div>
+  <div class="job-list">
+    <a onclick="window.location.href='CEO.html';">Chief Executive Officer(CEO)</a>
+    <a onclick="window.location.href='AI.html';">Artificial Intelligence(AI) Engineer</a>
+    <a onclick="window.location.href='SE.html';">Software Engineer</a>
+    <a onclick="window.location.href='DS.html';">Data Scientist</a>
+    <a onclick="window.location.href='BCD.html';">Blockchain Developers</a>
+    <a onclick="window.location.href='FullStack.html';">Full Stack Developer</a>
+    <a href="#">Management Consultant</a>
+    <a href="#">IT Manager</a>
+    <a href="#">Aerospace Engineer</a>
+    <a href="#">Chartered Accountant</a>
+    <a href="#">Financial Manager</a>
+    <a href="#">Product Manager</a>
+    <a href="#">HR Manager</a>
+    <a href="#">Web Developer</a>
+    <a href="#">Financial Analyst</a>
+  </div>
+</body>
+</html>
